@@ -64,6 +64,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.links a {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 1042px) {
   .wrapper {
     width: 80%;
